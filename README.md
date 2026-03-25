@@ -72,5 +72,5 @@ Todo o processo acontece de forma assíncrona utilizando `async/await`, garantin
 
 ## 👩‍💻 Autora
 
-Desenvolvido por **Carolline Barbosa Ferreira** 🚀
+Desenvolvido por **Carolline Barbosa Ferreira** 
 
