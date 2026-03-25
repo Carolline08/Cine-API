@@ -65,7 +65,7 @@ Todo o processo acontece de forma assíncrona utilizando `async/await`, garantin
 
 ---
 
-## Visualização Online
+## 🔗 Visualização Online
 {https://carolline08.github.io/Cine-API/}
 
 ---
