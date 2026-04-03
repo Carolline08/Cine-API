@@ -1,24 +1,39 @@
-<html>
+<!DOCTYPE html>
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cine</title>
+    
+    <title>Cine App</title>
+
+    <!-- CSS -->
     <link rel="stylesheet" href="style.css">
+
+    <!-- PWA -->
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#111">
+
+    
+    <link rel="icon" href="icons/ic_launcher.png">
 </head>
 
 <body>
 
     <div class="container">
-        <img width="150px" alt="logo do Cine" src="assets/Cine API.png">
+       
+        <img src="assets/Cine API.png" class="logo" alt="Logo do Cine">
+
+        
         <h2>Cine App</h2>
 
-        <p>Clique no botão a seguir:</p>
+       
+        <button id="btnSortear"> Sortear indicação </button>
 
-        <button id="btnSortear">Sortear</button>
-
+       
         <div id="filmesSeries"></div>
     </div>
 
+   
     <script src="script.js"></script>
 </body>
 </html>
